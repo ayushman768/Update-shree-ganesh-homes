@@ -1,0 +1,44 @@
+article {
+    background-image: url(..//img/shree-gajmukh-construction-blog-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg {
+    background: rgb(0 0 0 / 59%);
+    color: #fff
+}
+
+.text h1 {
+    padding-top: 338px;
+    letter-spacing: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 34px!important
+}
+
+p {
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 2;
+}
+
+.Shree-ganesh-homes-blog-first {
+    margin: 0px 10px;
+}
+
+.font-size {
+    font-size: 9px;
+}
+
+.Shree-ganesh-homes-blog-first img {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0px;
+}
+
+h1 {
+    font-size: 17px!important;
+}

@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.col-flex {
+    display: flex;
+    flex-wrap: nowrap
+}
+
+.text-position {
+    width: 100%;
+    display: inline-flex
+}
+
+.logo-Shree-Ganesh-Homes,
+.pad-10,
+header {
+    padding: 10px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 23px!important;
+    letter-spacing: 2px
+}
+
+:root {
+    --color-blue: rgb(4 56 121);
+    --font-size-16: 16px;
+    --font-weight-600: 600
+}
+
+.carousel-inner img {
+    width: 1349px;
+    height: 570px!important
+}
+
+.carousel-inner .work img {
+    filter: brightness(.4)
+}
+
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    top: 50;
+    top: 204px;
+    line-height: 4;
+    letter-spacing: 4px;
+    font-size: 26px
+}
+
+.main-width,
+.text-position {
+    width: 100%
+}
+
+.logo-Shree-Ganesh-Homes {
+    width: 53%
+}
+
+header {
+    padding: 10px;
+    background: rgb(255 255 255);
+    box-sizing: border-box;
+    box-shadow: 0 4px 19px -13px #000;
+    position: sticky;
+    top: 0;
+    z-index: 999999
+}
+
+footer {
+    background: rgb(56 56 56) url(https://ramomcoder.com/v3/assets/frontend/images/07.png);
+    color: #fff
+}
+
+.nav ul>li>a {
+    color: var(--color-blue);
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 0!important
+}
+
+.shree-ganesh-homes-bank-partenr>h1,
+.work {
+    font-weight: var(--font-weight-600)!important
+}
+
+.banks {
+    width: 92%!important;
+    height: 50%!important;
+    border-radius: 29px;
+    box-shadow: 0 10px 13px -7px #000;
+    padding: 10px;
+    margin: 10px 10px
+}
+
+.Menu>ul,
+a,
+li {
+    list-style-type: none;
+    color: #fff;
+    font-size: var(--font-size-16);
+    letter-spacing: 2px;
+    padding: 10px 10px
+}
+
+.Menu>ul>li>a {
+    color: #fff!important
+}
+
+.block,
+.block-1 {
+    display: none
+}
+
+@media (max-width:1024px) {
+    .col-flex {
+        display: block;
+        flex-wrap: wrap
+    }
+    .Shree-Ganesh-Construction-contact {
+        display: none
+    }
+    .Menu>ul,
+    a,
+    li {
+        list-style-type: none;
+        color: #fff;
+        font-size: var(--font-size-16);
+        padding: 5px 0;
+        letter-spacing: 0
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 24px!important;
+        letter-spacing: 2px
+    }
+    .carousel-inner img {
+        width: 1349px;
+        height: 242px!important
+    }
+    .block {
+        position: absolute;
+        right: 26px;
+        top: 15px;
+        font-size: 39px;
+        font-weight: 100;
+        display: block
+    }
+    #menu:checked~nav {
+        display: block;
+        padding: 30px;
+        width: 70%;
+        background: white;
+        position: fixed;
+        top: 0;
+        /* width: 100%; */
+        z-index: 9999999;
+        right: 0px;
+        display: none!important;
+        height: 100%;
+    }
+    .carousel-caption {
+        top: 10px;
+        line-height: 4;
+        letter-spacing: 2px;
+        font-size: 10px
+    }
+    .banks {
+        padding: 0
+    }
+}
+
+@media (max-width:768px) {
+    .shree-ganesh-homes-Currunt-work img {
+        width: 406px;
+        height: auto!important;
+    }
+    .Team-shree-ganesh-home img {
+        border-radius: 100%;
+        display: block;
+        padding: 30px;
+        margin: 0 auto;
+        width: 0!important;
+        height: auto!important;
+    }
+    .offers img {
+        padding: 10px;
+        margin: 10px 0;
+        width: 100%!important;
+        height: auto!important;
+    }
+}
+
+body {
+    font-family: 'Libre Baskerville', serif!important;
+}
+
+.footer-list>ul {
+    list-style-type: none;
+}
+
+.footer-list>ul>li {
+    display: inline-block;
+}
+
+.footer-list>ul>li>a {
+    text-decoration: none;
+}
+
+.sidefix {
+    width: 150px;
+    padding: 10px;
+    height: auto;
+    position: fixed;
+    font-size: 14px;
+    word-break: break-all;
+    z-index: 999;
+    right: -75px;
+    top: 40%;
+    line-height: 17px;
+    z-index: 999;
+}
+
+.block-3 {
+    font-size: 31px;
+    /* position: absolute; */
+    position: relative;
+    right: -505px;
+}
+
+.nav>ul>li {
+    list-style-type: none;
+    color: rgb(255 255 255);
+    font-size: var(--font-size-16);
+    letter-spacing: 2px;
+    padding: 10px 10px;
+    display: block!important;
+    float: none!important;
+}
+
+.nav>ul {
+    padding: 62px 0px;
+}
+
+nav {
+    padding: 30px;
+    width: 27%;
+    background: white;
+    position: fixed;
+    top: 0;
+    /* width: 100%; */
+    z-index: 9999999;
+    right: 0px;
+    display: none!important;
+    height: 100%;
+    box-shadow: 0px 21px 19px 5px;
+}
+
+.block-4 {
+    position: absolute;
+    position: absolute;
+    right: 21px;
+    top: 13px;
+}
+
+#menu:checked~nav {
+    display: block!important;
+    -webkit-animation: slide 0.5s forwards;
+    animation: slide 0.6s forwards;
+    right: -200px;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        right: 0;
+    }
+}

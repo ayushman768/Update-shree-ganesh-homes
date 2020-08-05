@@ -1,0 +1,69 @@
+article {
+    background-image: url(../img/shree-ganesh-homes-bg-img-1.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+.bg {
+    background: rgb(0 0 0 / 59%);
+    color: #fff
+}
+
+.text h1 {
+    padding-top: 338px;
+    letter-spacing: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 34px!important
+}
+
+.shree-ganesh-homes-Currunt-work li {
+    color: #000
+}
+
+.shree-ganesh-homes-Currunt-work,
+.shree-ganesh-homes-Currunt-work>li {
+    border: 1px solid rgb(0 0 0 / 27%);
+    line-height: 1;
+    margin: 10px 10px
+}
+
+.shree-ganesh-homes-Currunt-work img {
+    width: 406px;
+    height: 239px
+}
+
+.shree-ganesh-homes-Currunt-work p {
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 2px
+}
+
+button {
+    padding: 10px!important;
+    margin: 10px 0!important;
+    padding: 10px!important;
+    margin: 10px 0!important;
+    background: rgb(24 74 132)
+}
+
+.color-white {
+    color: #fff!important
+}
+
+p {
+    font-size: 23px
+}
+
+@media (max-width:1024px) {
+    .shree-ganesh-homes-Currunt-work,
+    .shree-ganesh-homes-Currunt-work>li {
+        border: 1px solid rgb(0 0 0 / 27%);
+        line-height: 1;
+        margin: 10px 0
+    }
+    .shree-ganesh-homes-Currunt-work img {
+        width: 100%;
+        display: block
+    }
+}
